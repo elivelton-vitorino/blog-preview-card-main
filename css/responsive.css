@@ -1,0 +1,48 @@
+@media only screen and (max-width: 375px) {
+
+    .container {
+        height: 484px;
+        width: 315px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    
+    }
+
+    .ilustation img{
+      height: px;
+      width: 100px;
+        
+    }
+
+   
+    .text {
+        width: 100%;
+        margin-top: 11px;
+        margin-left: -15px;
+        padding: 15px;
+        height: 100%;
+        line-height: 1.2;
+        
+    }
+    .text span {
+        font-size: 10px;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+    .text .date {
+        font-size: 11px;
+    }
+    .text h2{
+        font-size: 19.5px;
+    }
+    .text .description {
+        font-size: 11.5px;
+    }
+    .footer {
+        display: flex;
+        margin-top: 30px;
+    }
+}

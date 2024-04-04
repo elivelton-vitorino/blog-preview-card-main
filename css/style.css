@@ -1,0 +1,83 @@
+body {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--Yellow);
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--White);
+  padding: 23px;
+  height: 500px;
+  max-width: 368px;
+  border-radius: 20px;
+  border: 1px; border-style: solid; border-color:black;
+  box-shadow:  8px 8px rgba(0, 0, 0, 5);
+
+}
+
+.ilustation {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text {
+  margin-top: 11px;
+  margin-left: -15px;
+  padding: 15px;
+  height: 100%;
+  line-height: 1.2;
+}
+
+.text span {
+  background-color: var(--Yellow);
+  color: var(--Black);
+  padding: 7px 15px;
+  font-weight: 900;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.text .date{
+margin-top: 18px;
+font-size: 13.4px;
+}
+
+.text h2 {
+  margin-top: 17px;
+  font-weight: 900;
+  font-size: 23px;
+}
+
+.text .description {
+  line-height: 1.5;
+  color: var(--Grey);
+  margin-top: 15.5px;
+  font-size: 15px;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.footer img{
+  padding: 0px;
+  border-radius: 50%;
+  max-width: 30px;
+  height: 100%;
+}
+.footer p {
+  font-weight: 900;
+  margin-left: 13px;
+  font-size: 13px;
+}
